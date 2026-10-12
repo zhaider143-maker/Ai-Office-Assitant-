@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "Ai-Office-Assistant.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Ai-Office-Assistant.py"
+    }
+  ]
+}
