@@ -1,0 +1,5 @@
+[tool.vercel]
+entrypoint = "Ai-Office-Assistant.py: app"
+
+[build-system]
+requires = ["setuptools"]
